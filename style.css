@@ -1,6 +1,6 @@
 body {
 
-    background-color: deepskyblue;
+    background-color: D4F1F5;
 
 }
 
@@ -15,12 +15,12 @@ body {
 }
 
 .firstbutton {
-    padding-left: 200px;
+    padding-left: 325px;
     float: left;
 }
 
 .secondbutton {
-    padding-right: 200px;
+    padding-right: 300px;
     float: right;
 }
 
@@ -37,6 +37,7 @@ h1 {
     font-size: 75px;
     padding: 50;
     color: midnightblue;
+    font-family: "Trebuchet MS", sans-serif;
 }
 
 h2 {
@@ -44,6 +45,7 @@ h2 {
     font-size: 50px;
     padding: 50;
     color: midnightblue;
+    font-family: "Trebuchet MS", sans-serif;
 }
 
 h3 {
@@ -69,4 +71,24 @@ p {
 a {
     font-size: 20px;
     color: blue;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    padding-left: 100px;
+
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
 }
