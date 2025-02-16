@@ -27,6 +27,10 @@ p{
     padding-right: 300px;
     float: right;
 }
+.thirdbutton {
+    padding-left: 365px;
+    float: left;
+}
 
 .nextpage {
     padding: 5px;
