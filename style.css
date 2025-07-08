@@ -56,6 +56,16 @@ p{
     background: #000;
 }
 
+.about-me{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    flex: 1 0 0;
+}
+
 .firstbutton {
 
     flex: 1 0 0;
@@ -66,6 +76,23 @@ p{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.mic-icon{
+
+    width: 93px;
+    height: 93px;
+    border-radius: 93px;
+    background: url("26321.png") #43E9FB 5px 5px / 89.247% 89.247% no-repeat;
+}
+
+.art-work{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
 }
 
 .secondbutton {
@@ -79,6 +106,22 @@ p{
     font-weight: 400;
     line-height: normal;
 }
+.brush-icon{
+
+    width: 110px;
+    height: 110px;
+    border-radius: 110px;
+    background: url("587377.png") #43E9FB 13.5px 13.5px / 75.455% 75.455% no-repeat;
+}
+
+.coding-projects{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+}
 .thirdbutton {
     
     flex: 1 0 0;
@@ -89,6 +132,14 @@ p{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.comp-icon{
+
+    width: 110px;
+    height: 110px;
+    border-radius: 110px;
+    background: url("59505.png") #43E9FB 13.5px 13.5px / 75.455% 75.455% no-repeat;
 }
 
 .nextpage:link {
@@ -358,7 +409,34 @@ a {
     padding: 44px 75px;
     justify-content: flex-end;
     align-items: center;
-    gap: 111px;
+    gap: 5px;
     align-self: stretch;
     background: #43E9FB;
+}
+
+.gmail-icon{
+
+    height: 53px;
+    max-width: 53px;
+    flex: 1 0 0;
+    border-radius: 53px;
+    background: url("gmail_logo.png") #43E9FB 50% / cover no-repeat;
+}
+
+.linked-icon{
+
+    height: 45px;
+    max-width: 45px;
+    flex: 1 0 0;
+    border-radius: 45px;
+    background: url("717416.png") #43E9FB 50% / cover no-repeat;
+}
+
+.git-icon{
+
+    height: 53px;
+    max-width: 53px;
+    flex: 1 0 0;
+    border-radius: 53px;
+    background: url("github.png") #43E9FB 50% / cover no-repeat;
 }
