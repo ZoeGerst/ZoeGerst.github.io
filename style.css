@@ -709,3 +709,12 @@ a {
     font-weight: 400;
     line-height: normal;
 }
+
+/*.qr-code{
+
+    width: auto;
+    max-height: 867px;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: url("qrCode.png")  #f5feff 50% / cover no-repeat;
+}*/
